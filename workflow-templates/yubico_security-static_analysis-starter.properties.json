@@ -1,6 +1,6 @@
 {
     "name": "Yubico Security - Static Analysis",
-    "description": "Easily configure Snyk Open Source and CodeQL scanning for your repository.",
+    "description": "Easily configure Snyk Open Source dependency vulnerability scanning and monitoring for your repository.",
     "iconName": "octicon shield-check",
-    "categories": ["dependency-management", "Code Scanning"]
+    "categories": ["dependency-management"]
 }
