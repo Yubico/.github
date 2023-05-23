@@ -7,7 +7,7 @@ on:
 jobs:
     static_analysis:
         name: "Yubico Security - Static Analysis"
-        uses: Yubico/.github/.github/workflows/yubico_security-static_analysis@main
+        uses: Yubico/.github/.github/workflows/yubico_security-static_analysis.yml@main
         with:
             snyk-enabled: true
             # Not all langauges need to be specified. Currently, this only has an affect if you use Go
