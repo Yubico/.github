@@ -10,8 +10,8 @@ jobs:
         uses: Yubico/.github/.github/workflows/yubico_security-static_analysis.yml@main
         with:
             snyk-enabled: true
-            # Not all langauges need to be specified. Currently, this only has an affect if you use Go
-            # The rest of the langauges supported by Snyk have tooling installed on the action runner by defualt (or no one at Yubico uses them)
+            # Not all languages need to be specified. Currently, this only has an affect if you use Go
+            # The rest of the languages supported by Snyk have tooling installed on the action runner by default (or no one at Yubico uses them)
             # Reference the source workflow and/or https://docs.snyk.io/scan-application-code/snyk-open-source/snyk-open-source-supported-languages-and-package-managers
             snyk-languages: '["go"]'
             # This assumes that you have a repository variable with the Snyk org id/slug
